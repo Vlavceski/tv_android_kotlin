@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:inset="-4.5dp"
+    android:insetLeft="-4.5dp"
+    android:insetBottom="-4.5dp"
+    >
+    <shape android:shape="rectangle">
+    <gradient
+        android:endColor="#9C8A8A"
+        android:centerColor="#BFBABA"
+        android:startColor="#FFFFFF"
+        android:centerY=".1"
+        android:type="linear"
+        />
+        <stroke
+            android:width="5.5dp"
+            android:color="#0D47A1"
+            />
+    </shape>
+
+</inset>

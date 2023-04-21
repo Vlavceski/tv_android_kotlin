@@ -1,15 +1,13 @@
 package com.example.tvapp
 
 import android.content.Context
-import android.provider.ContactsContract.Data
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.leanback.widget.Presenter
-import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
-class ItemPresenter:Presenter() {
+class ItemPresenter : Presenter() {
     override fun onCreateViewHolder(parent: ViewGroup?): ViewHolder {
 
         val view =
